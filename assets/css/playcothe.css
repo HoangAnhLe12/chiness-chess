@@ -1,0 +1,39 @@
+.home-playcothe{
+    margin-bottom: 10px;
+}
+.home-playcothe-level{
+display: block;
+text-decoration: none;
+cursor: pointer;
+}
+.home-playcothe-level-action{
+    display: flex;
+}
+.home-playcothe-level-name{
+    font-size: 1.9rem;
+    color: var(--white-color);
+    margin-bottom: 5px;
+    }
+.home-playcothe-level-check{
+    font-size: 1.6rem;
+    color: var(--white-color);
+    padding-top: 23px;
+    padding-left: 10px;
+}
+.home-playcothe-level-check-icon-fill{
+    display: none;
+    color: var(--black-color);
+}
+.home-playcothe-level-check-checked .home-playcothe-level-check-icon-fill{
+    display: inline-block;
+}
+.home-playcothe-level-check-checked .home-playcothe-level-check-icon-empty{
+    display: none;
+}
+.home-playcothe-level-img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

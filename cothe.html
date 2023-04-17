@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/playcothe.css">
+    <link rel="icon" href="./assets/img/Logo_Đại_học_Bách_Khoa_Hà_Nội.svg.png" >
+    <title>  AI cờ tướng</title>
+</head>
+<body>
+    <div class="App">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-strong">
+                             <span class="header__navbar-title-no-point">AI Cờ Tướng</span> 
+                            </li>
+                    </ul>
+                    <div class="header__search" >
+                        <div class="header__search-icon">
+                            <i class="header__search-icon-color fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input class="header__search-input" type="text" placeholder="Nhập vào để tìm kiếm ... ">
+                    </div>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-strong">
+                            <a href="/error.html" class="header__navbar-item-link">
+                                Đăng nhập
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <ul class="category-list">
+                                <li class="category-item">
+                                    <a href="/index.html" class="category-link">
+                                        <i class="category-link-icon fa-solid fa-house"></i>
+                                        Home</a>
+                                </li>
+                                <li class="category__item category-link-play-choose">
+                                    <a href="" class="category-link category-link-play-choose">
+                                        <i class="category-link-icon fa-solid fa-gamepad"></i>
+                                        Chơi</a>
+                                <ul class="category__play-list">
+                                    <li class="category__play-item">
+                                        <a href="pvp.html" class="category__play-item-link">
+                                            <i class="category-link-icon-son fa-solid fa-people-arrows"></i>
+                                            Người với Người
+                                        </a> 
+                                    </li>
+                                    <li class="category__play-item">
+                                        <a href="pvc.html" class="category__play-item-link">
+                                            <i class="category-link-icon-son fa-solid fa-computer"></i>
+                                            Chơi với Máy
+                                        </a> 
+                                    </li>
+                                    <li class="category__play-item">
+                                        <a href="cothe.html" class="category__play-item-link">
+                                            <i class="category-link-icon-son fa-solid fa-puzzle-piece"></i>
+                                            Cờ thế
+                                        </a> 
+                                    </li>
+                                    <li class="category__play-item">
+                                        <a href="/error.html" class="category__play-item-link">
+                                            <i class="category-link-icon-son fa-solid fa-trophy"></i>
+                                            Giải đấu
+                                        </a> 
+                                    </li>
+                                </ul>
+                                </li>
+                                <li class="category__item category-link-document-choose">
+                                    <a href="" class="category-link">
+                                        <i class="category-link-icon fa-solid fa-file"></i>
+                                        Tài liệu</a>                                       
+                                    <ul class="category__document-list">
+                                        <li class="category__document-item">
+                                            <a href="https://www.xiangqi.com/how-to-play-xiangqi" class="category__document-item-link">
+                                                <i class="category-link-icon-son fa-solid fa-graduation-cap"></i>
+                                                Học chơi cờ tướng
+                                            </a> 
+                                        </li>
+                                        <li class="category__document-item">
+                                            <a href="" class="category__document-item-link">
+                                                <i class="category-link-icon-son fa-brands fa-stack-overflow"></i>
+                                                Thuật toán
+                                            </a> 
+                                        </li>
+                                        <li class="category__document-item">
+                                            <a href="" class="category__document-item-link">
+                                                <i class="category-link-icon-son fa-solid fa-hammer"></i>
+                                                Các công cụ
+                                            </a> 
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="category__item category-link-group-choose">
+                                    <a href="" class="category-link">
+                                        <i class="category-link-icon fa-sharp fa-solid fa-square-rss"></i>
+                                        Cộng đồng
+                                    </a>                                      
+                                            <ul class="category__group-list">
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-brands fa-blogger"></i>
+                                                        Blog
+                                                    </a> 
+                                                </li>
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-brands fa-facebook"></i>
+                                                        Diễn đàn
+                                                    </a> 
+                                                </li>
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-newspaper"></i>
+                                                        Tin tức
+                                                    </a> 
+                                                </li>
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-user-group"></i>
+                                                        Hội nhóm
+                                                    </a> 
+                                                </li>
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-ranking-star"></i>
+                                                        Bảng xếp hạng 
+                                                    </a> 
+                                                </li>
+                                            </ul>
+                                </li>
+                                <li class="category__item category-link-add-choose">
+                                    <a href="" class="category-link">
+                                        <i class="category-link-icon fa-solid fa-plus"></i>
+                                        Thêm</a>
+                                            <ul class="category__add-list">
+                                                <li class="category__add-item">
+                                                    <a href="/error.html" class="category__add-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-download"></i>
+                                                        Download
+                                                    </a> 
+                                                </li>
+                                                <li class="category__Add-item">
+                                                    <a href="/error.html" class="category__add-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-book"></i>
+                                                    Tài nguyên
+                                                    </a> 
+                                                </li>
+                                                <li class="category__add-item">
+                                                    <a href="/error.html" class="category__add-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-scale-balanced"></i>
+                                                        Các quy tắc
+                                                    </a> 
+                                                </li>
+                                            </ul>
+                                </li>
+                            </ul>
+                            <ul class="category-help">
+                                <li class="catory-item">
+                                    <a href="/error.html" class="category-link category-help-character">
+                                        <i class="category-help-character-icon fa-solid fa-earth-americas"></i>
+                                        Ngôn ngữ
+                                    </a>
+                                </li>
+                                <li class="catory-item">
+                                    <a href="/error.html" class="category-link category-help-character">
+                                        <i class="category-help-character-icon fa-solid fa-circle-info"></i>
+                                        Trợ giúp
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-playcothe">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <a class="home-playcothe-level" href="#">
+                                        <div class="home-playcothe-level-action">
+                                            <h4 class="home-playcothe-level-name">Thế cờ 1</h4>
+                                            <span class="home-playcothe-level-check home-playcothe-level-check-checked">
+                                                <i class="home-playcothe-level-check-icon-empty fa-solid fa-circle-check"></i>
+                                                <i class="home-playcothe-level-check-icon-fill fa-solid fa-circle-check"></i>
+                                            </span>
+                                        </div>
+                                            <img src="/assets/img/thế cờ 1.png" alt="" class="home-playcothe-level-img">
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-playcothe-level" href="#">
+                                        <div class="home-playcothe-level-action">
+                                            <h4 class="home-playcothe-level-name">Thế cờ 2</h4>
+                                            <span class="home-playcothe-level-check home-playcothe-level-check-checked">
+                                                <i class="home-playcothe-level-check-icon-empty fa-solid fa-circle-check"></i>
+                                                <i class="home-playcothe-level-check-icon-fill fa-solid fa-circle-check"></i>
+                                            </span>
+                                        </div>
+                                            <img src="/assets/img/thế cờ 2.png" alt="" class="home-playcothe-level-img">
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-playcothe-level" href="/playcothe.html">
+                                        <div class="home-playcothe-level-action">
+                                            <h4 class="home-playcothe-level-name">Thế cờ 3</h4>
+                                            <span class="home-playcothe-level-check home-playcothe-level-check-checked">
+                                                <i class="home-playcothe-level-check-icon-empty fa-solid fa-circle-check"></i>
+                                                <i class="home-playcothe-level-check-icon-fill fa-solid fa-circle-check"></i>
+                                            </span>
+                                        </div>
+                                            <img src="/assets/img/thế cờ 3.png" alt="" class="home-playcothe-level-img">
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-playcothe-level" href="#">
+                                        <div class="home-playcothe-level-action">
+                                            <h4 class="home-playcothe-level-name">Thế cờ 4</h4>
+                                            <span class="home-playcothe-level-check home-playcothe-level-check-checked">
+                                                <i class="home-playcothe-level-check-icon-empty fa-solid fa-circle-check"></i>
+                                                <i class="home-playcothe-level-check-icon-fill fa-solid fa-circle-check"></i>
+                                            </span>
+                                        </div>
+                                            <img src="/assets/img/thế cờ 4.png" alt="" class="home-playcothe-level-img">
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-playcothe-level" href="#">
+                                        <div class="home-playcothe-level-action">
+                                            <h4 class="home-playcothe-level-name">Thế cờ 5</h4>
+                                            <span class="home-playcothe-level-check home-playcothe-level-check-checked">
+                                                <i class="home-playcothe-level-check-icon-empty fa-solid fa-circle-check"></i>
+                                                <i class="home-playcothe-level-check-icon-fill fa-solid fa-circle-check"></i>
+                                            </span>
+                                        </div>
+                                            <img src="/assets/img/thế cờ 5.png" alt="" class="home-playcothe-level-img">
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-playcothe-level" href="#">
+                                        <div class="home-playcothe-level-action">
+                                            <h4 class="home-playcothe-level-name">Thế cờ 6</h4>
+                                            <span class="home-playcothe-level-check home-playcothe-level-check-checked">
+                                                <i class="home-playcothe-level-check-icon-empty fa-solid fa-circle-check"></i>
+                                                <i class="home-playcothe-level-check-icon-fill fa-solid fa-circle-check"></i>
+                                            </span>
+                                        </div>
+                                            <img src="/assets/img/thế cờ 6.png" alt="" class="home-playcothe-level-img">
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-playcothe-level" href="#">
+                                        <div class="home-playcothe-level-action">
+                                            <h4 class="home-playcothe-level-name">Thế cờ 7</h4>
+                                            <span class="home-playcothe-level-check home-playcothe-level-check-checked">
+                                                <i class="home-playcothe-level-check-icon-empty fa-solid fa-circle-check"></i>
+                                                <i class="home-playcothe-level-check-icon-fill fa-solid fa-circle-check"></i>
+                                            </span>
+                                        </div>
+                                            <img src="/assets/img/thế cờ 7.png" alt="" class="home-playcothe-level-img">
+                                    </a>
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+        </footer>
+    </div>
+</body>
+</html>

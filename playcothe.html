@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/pvc.css">
+    <link rel="stylesheet" href="/assets/css/playpvc.css"/>
+    <link rel="icon" href="./assets/img/Logo_Đại_học_Bách_Khoa_Hà_Nội.svg.png" >
+    <title>  AI cờ tướng</title>
+</head>
+<body>
+    <div class="App">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-strong">
+                             <span class="header__navbar-title-no-point">AI Cờ Tướng</span> 
+                            </li>
+                    </ul>
+                    <div class="header__search" >
+                        <div class="header__search-icon">
+                            <i class="header__search-icon-color fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input class="header__search-input" type="text" placeholder="Nhập vào để tìm kiếm ... ">
+                    </div>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-strong">
+                            <a href="/error.html" class="header__navbar-item-link">
+                                Đăng nhập
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <ul class="category-list">
+                                <li class="category-item">
+                                    <a href="/index.html" class="category-link">
+                                        <i class="category-link-icon fa-solid fa-house"></i>
+                                        Home</a>
+                                </li>
+                                <li class="category__item category-link-play-choose">
+                                    <a href="" class="category-link category-link-play-choose">
+                                        <i class="category-link-icon fa-solid fa-gamepad"></i>
+                                        Chơi</a>
+                                <ul class="category__play-list">
+                                    <li class="category__play-item">
+                                        <a href="pvp.html" class="category__play-item-link">
+                                            <i class="category-link-icon-son fa-solid fa-people-arrows"></i>
+                                            Người với Người
+                                        </a> 
+                                    </li>
+                                    <li class="category__play-item">
+                                        <a href="pvc.html" class="category__play-item-link">
+                                            <i class="category-link-icon-son fa-solid fa-computer"></i>
+                                            Chơi với Máy
+                                        </a> 
+                                    </li>
+                                    <li class="category__play-item">
+                                        <a href="cothe.html" class="category__play-item-link">
+                                            <i class="category-link-icon-son fa-solid fa-puzzle-piece"></i>
+                                            Cờ thế
+                                        </a> 
+                                    </li>
+                                    <li class="category__play-item">
+                                        <a href="/error.html" class="category__play-item-link">
+                                            <i class="category-link-icon-son fa-solid fa-trophy"></i>
+                                            Giải đấu
+                                        </a> 
+                                    </li>
+                                </ul>
+                                </li>
+                                <li class="category__item category-link-document-choose">
+                                    <a href="" class="category-link">
+                                        <i class="category-link-icon fa-solid fa-file"></i>
+                                        Tài liệu</a>                                       
+                                    <ul class="category__document-list">
+                                        <li class="category__document-item">
+                                            <a href="https://www.xiangqi.com/how-to-play-xiangqi" class="category__document-item-link">
+                                                <i class="category-link-icon-son fa-solid fa-graduation-cap"></i>
+                                                Học chơi cờ tướng
+                                            </a> 
+                                        </li>
+                                        <li class="category__document-item">
+                                            <a href="" class="category__document-item-link">
+                                                <i class="category-link-icon-son fa-brands fa-stack-overflow"></i>
+                                                Thuật toán
+                                            </a> 
+                                        </li>
+                                        <li class="category__document-item">
+                                            <a href="" class="category__document-item-link">
+                                                <i class="category-link-icon-son fa-solid fa-hammer"></i>
+                                                Các công cụ
+                                            </a> 
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="category__item category-link-group-choose">
+                                    <a href="" class="category-link">
+                                        <i class="category-link-icon fa-sharp fa-solid fa-square-rss"></i>
+                                        Cộng đồng
+                                    </a>                                      
+                                            <ul class="category__group-list">
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-brands fa-blogger"></i>
+                                                        Blog
+                                                    </a> 
+                                                </li>
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-brands fa-facebook"></i>
+                                                        Diễn đàn
+                                                    </a> 
+                                                </li>
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-newspaper"></i>
+                                                        Tin tức
+                                                    </a> 
+                                                </li>
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-user-group"></i>
+                                                        Hội nhóm
+                                                    </a> 
+                                                </li>
+                                                <li class="category__group-item">
+                                                    <a href="/error.html" class="category__group-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-ranking-star"></i>
+                                                        Bảng xếp hạng 
+                                                    </a> 
+                                                </li>
+                                            </ul>
+                                </li>
+                                <li class="category__item category-link-add-choose">
+                                    <a href="" class="category-link">
+                                        <i class="category-link-icon fa-solid fa-plus"></i>
+                                        Thêm</a>
+                                            <ul class="category__add-list">
+                                                <li class="category__add-item">
+                                                    <a href="/error.html" class="category__add-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-download"></i>
+                                                        Download
+                                                    </a> 
+                                                </li>
+                                                <li class="category__Add-item">
+                                                    <a href="/error.html" class="category__add-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-book"></i>
+                                                    Tài nguyên
+                                                    </a> 
+                                                </li>
+                                                <li class="category__add-item">
+                                                    <a href="/error.html" class="category__add-item-link">
+                                                        <i class="category-link-icon-son fa-solid fa-scale-balanced"></i>
+                                                        Các quy tắc
+                                                    </a> 
+                                                </li>
+                                            </ul>
+                                </li>
+                            </ul>
+                            <ul class="category-help">
+                                <li class="catory-item">
+                                    <a href="/error.html" class="category-link category-help-character">
+                                        <i class="category-help-character-icon fa-solid fa-earth-americas"></i>
+                                        Ngôn ngữ
+                                    </a>
+                                </li>
+                                <li class="catory-item">
+                                    <a href="/error.html" class="category-link category-help-character">
+                                        <i class="category-help-character-icon fa-solid fa-circle-info"></i>
+                                        Trợ giúp
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-pvc">
+                            <div class="grid__row">
+                                <div class="grid__column-6">
+                                    <!--Phần giao diện chương trình chơi với máy-->
+                                    <div class="home__playpvc-board">
+                                      <div class="home__playpvc-board-item">
+                                        <i class=" fa-sharp fa-solid fa-computer"></i>
+                                        <span class="home__playpvc-board-item-span">Computer</span>
+                                    </div>
+                                      <div id="myBoard" style="width: 450px"></div>
+                                      <div class="home__playpvc-board-item">
+                                        <i class="fa-sharp fa-solid fa-user"></i>
+                                        <span class="home__playpvc-board-item-span">You</span>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-6">
+                                    <div class="home__playpvc-setting">
+                                      <div id="status"></div>
+                                      <div id="pgn"></div>
+                                      <div class="home__playpvc-setting-choose">
+                                        <button id="startPositionBtn" class="home__playpvc-setting-choose-but">
+                                          <i class="home__playpvc-setting-choose-but-icon fa-solid fa-rotate-right"></i>
+                                        </button>
+                                        <button id="undo" class="home__playpvc-setting-choose-but">
+                                          <i class="home__playpvc-setting-choose-but-icon fa-solid fa-arrow-left"></i> 
+                                        </button>
+                                        <button id="redo" class="home__playpvc-setting-choose-but">
+                                          <i class="home__playpvc-setting-choose-but-icon fa-solid fa-arrow-right"></i> 
+                                        </button>
+                                        <a href="/cothe.html"><button class="home__playpvc-setting-choose-but">
+                                          <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                                        </button>
+                                      </a>
+                                      </div>
+                                      <div class="home__pvc-setting-plus">
+                                        <button class="home__playpvc-setting-plus-but">
+                                          <i class="home__playpvc-setting-choose-but-icon fa-solid fa-gear"></i>
+                                        </button>
+                                        <button id="flag" class="home__playpvc-setting-plus-but">
+                                          <i class="home__playpvc-setting-plus-but-icon fa-solid fa-flag"></i>Đầu hàng
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+        </footer>
+    </div>
+    <script src="js/product.js"></script>
+    <script src="/js/jquery.js"></script>
+<script src="/js/xiangqiboard-0.3.3.js"></script>
+<script src="/js/xiangqi.js"></script>
+<!--- Begin Example JS -------------------------------------------------------->
+<script>
+// NOTE: this example uses the xiangqi.js library:
+
+  let board = null;
+  let game = new Xiangqi();
+  let $status = $('#status');
+  let $fen = $('#fen');
+  let $pgn = $('#pgn');
+  
+  function removeGreySquares () {
+    $('#myBoard .square-2b8ce').removeClass('highlight');
+  }
+  
+  function greySquare (square) {
+    let $square = $('#myBoard .square-' + square);
+  
+    $square.addClass('highlight');
+  }
+  
+  function onDragStart (source, piece, position, orientation) {
+    // do not pick up pieces if the game is over
+    if (game.game_over()) return false;
+  
+    if (piece.search(/^b/) !== -1) return false;
+    // // only pick up pieces for the side to move
+    // if ((game.turn() === 'r' && piece.search(/^b/) !== -1) ||
+    //     (game.turn() === 'b' && piece.search(/^r/) !== -1)) {
+    //   return false;
+    // }
+  }
+  
+  
+  function minimaxRoot(depth, game, isMaximisingPlayer) {
+    var newGameMoves = game.moves();
+    var bestMove = -9999;
+    var bestMoveFound;
+  
+    for(var i = 0; i < newGameMoves.length; i++) {
+      var newGameMove = newGameMoves[i]
+      game.move(newGameMove);
+      var value = minimax(depth - 1, game, -INFINITY, INFINITY, !isMaximisingPlayer);
+      game.undo();
+      if(value >= bestMove) {
+        bestMove = value;
+        bestMoveFound = newGameMove;
+      }
+    }
+    return bestMoveFound;
+  }
+  
+  function minimax(depth, game, alpha, beta, isMaximisingPlayer) {
+  
+    if (depth === 0) {
+      return -evaluateBoard(game.board());
+    }
+  
+    var newGameMoves = game.moves();
+  
+    if (isMaximisingPlayer) {
+      var bestMove = -9999;
+      for (var i = 0; i < newGameMoves.length; i++) {
+        game.move(newGameMoves[i]);
+        bestMove = Math.max(bestMove, minimax(depth - 1, game, alpha, beta, !isMaximisingPlayer));
+        game.undo();
+        alpha = Math.max(alpha, bestMove);
+        if (beta <= alpha) {
+          return bestMove;
+        }
+      }
+      return bestMove;
+    } else {
+      var bestMove = 9999;
+      for (var i = 0; i < newGameMoves.length; i++) {
+        game.move(newGameMoves[i]);
+        bestMove = Math.min(bestMove, minimax(depth - 1, game, alpha, beta, !isMaximisingPlayer));
+        game.undo();
+        beta = Math.min(beta, bestMove);
+        if (beta <= alpha) {
+          return bestMove;
+        }
+      }
+      return bestMove;
+    }
+  }
+  
+  function evaluateBoard(board) {
+    var totalEvaluation = 0;
+    for (var i = 0; i < 10; i++) {
+      for (var j = 0; j < 9; j++) {
+        totalEvaluation = totalEvaluation + getPieceValue(board[i][j], i ,j);
+      }
+    }
+    return totalEvaluation;
+  }
+  
+  function reverseArray(array) {
+    return array.slice().reverse();
+  }
+  
+  const INFINITY = 50000;
+  //tốt
+  const pEvalRed =
+  [
+          [ 0,   3,   6,   9,  12,   9,   6,   3,   0],
+          [18,  36,  56,  80, 120,  80,  56,  36,  18],
+          [14,  26,  42,  60,  80,  60,  42,  26,  14],
+          [10,  20,  30,  34,  40,  34,  30,  20,  10],
+          [ 6,  12,  18,  18,  20,  18,  18,  12,   6],
+          [ 2,   0,   8,   0,   8,   0,   8,   0,   2],
+          [ 0,   0,  -2,   0,   4,   0,  -2,   0,   0],
+          [ 0,   0,   0,   0,   0,   0,   0,   0,   0],
+          [ 0,   0,   0,   0,   0,   0,   0,   0,   0],
+          [ 0,   0,   0,   0,   0,   0,   0,   0,   0],
+  ];
+  
+  const pEvalBlack = reverseArray(pEvalRed);
+  //xe
+  const rEvalRed =
+  [
+          [ 14,  14,  12,  18,  16,  18,  12,  14,  14], 
+          [ 16,  20,  18,  24,  26,  24,  18,  20,  16], 
+          [ 12,  12,  12,  18,  18,  18,  12,  12,  12], 
+          [ 12,  18,  16,  22,  22,  22,  16,  18,  12], 
+          [ 12,  14,  12,  18,  18,  18,  12,  14,  12], 
+          [ 12,  16,  14,  20,  20,  20,  14,  16,  12], 
+          [  6,  10,   8,  14,  14,  14,   8,  10,   6], 
+          [  4,   8,   6,  14,  12,  14,   6,   8,   4], 
+          [  8,   4,   8,  16,   8,  16,   8,   4,   8], 
+          [ -2,  10,   6,  14,  12,  14,   6,  10,  -2], 
+  
+  ];
+  
+  const rEvalBlack = reverseArray(rEvalRed);
+  //mã
+  const nEvalRed =
+  [
+          [ 4,   8,  16,  12,   4,  12,  16,   8,   4], 
+          [ 4,  10,  28,  16,   8,  16,  28,  10,   4],  
+          [12,  14,  16,  20,  18,  20,  16,  14,  12],  
+          [ 8,  24,  18,  24,  20,  24,  18,  24,   8],  
+          [ 6,  16,  14,  18,  16,  18,  14,  16,   6],  
+          [ 4,  12,  16,  14,  12,  14,  16,  12,   4],  
+          [ 2,   6,   8,   6,  10,   6,   8,   6,   2],  
+          [ 4,   2,   8,   8,   4,   8,   8,   2,   4],  
+          [ 0,   2,   4,   4,  -2,   4,   4,   2,   0],  
+          [ 0,  -4,   0,   0,   0,   0,   0,  -4,   0], 
+  
+  ];
+  
+  const nEvalBlack = reverseArray(nEvalRed);
+  //pháo
+  const cEvalRed =
+  [
+          [ 6,   4,   0, -10, -12, -10,   0,   4,   6], 
+          [ 2,   2,   0,  -4, -14,  -4,   0,   2,   2], 
+          [ 2,   2,   0, -10,  -8, -10,   0,   2,   2], 
+          [ 0,   0,  -2,   4,  10,   4,  -2,   0,   0], 
+          [ 0,   0,   0,   2,   8,   2,   0,   0,   0], 
+          [-2,   0,   4,   2,   6,   2,   4,   0,  -2], 
+          [ 0,   0,   0,   2,   4,   2,   0,   0,   0], 
+          [ 4,   0,   8,   6,  10,   6,   8,   0,   4], 
+          [ 0,   2,   4,   6,   6,   6,   4,   2,   0], 
+          [ 0,   0,   2,   6,   6,   6,   2,   0,   0], 
+  
+  ];
+  
+  const cEvalBlack = reverseArray(cEvalRed);
+  //tượng
+  const bEvalRed =
+  [
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  
+  ];
+  
+  const bEvalBlack = reverseArray(bEvalRed);
+  //sĩ
+  const aEvalRed =
+  [
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  
+  ];
+  
+  const aEvalBlack = reverseArray(aEvalRed);
+  //tướng
+   kEvalRed =
+  [
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  2.0,  0.0,  0.0,  0.0, 0.0],
+  [0.0,  0.0,  0.0,  0.0,  4.0,  0.0,  0.0,  0.0, 0.0],
+  
+  ];
+  
+  const kEvalBlack = reverseArray(kEvalRed);
+  
+  function getPieceValue(piece, x, y) {
+    if (piece === null) {
+      return 0;
+    }
+    var getAbsoluteValue = function (piece, isRed, x ,y) {
+      if (piece.type === 'p') { //chốt
+        return 30 + ( isRed ? pEvalRed[x][y] : pEvalBlack[x][y] );
+      } else if (piece.type === 'r') { //Xe
+        return 600 +( isRed ? rEvalRed[x][y] : rEvalBlack[x][y] );
+      } else if (piece.type === 'c') { //pháo
+        return 285 +( isRed ? cEvalRed[x][y] : cEvalBlack[x][y] );
+      } else if (piece.type === 'n') { // mã
+        return 270 +( isRed ? nEvalRed[x][y] : nEvalBlack[x][y] );
+      } else if (piece.type === 'b') { // tượng
+        return 120 +( isRed ? bEvalRed[x][y] : bEvalBlack[x][y] );
+      } else if (piece.type === 'a') { // sỹ
+        return 120 +( isRed ? aEvalRed[x][y] : aEvalBlack[x][y] );
+      } else if (piece.type === 'k') { // tướng
+        return 6000 +( isRed ? kEvalRed[x][y] : kEvalBlack[x][y] );
+      }
+      throw "Unknown piece type: " + piece.type;
+    };
+  
+    var absoluteValue = getAbsoluteValue(piece, piece.color === 'r', x ,y);
+    return piece.color === 'r' ? absoluteValue : -absoluteValue;
+  }
+  
+  function makeBestMove() {
+    var bestMove = getBestMoveMaxi(game);
+    game.move(bestMove);
+    board.position(game.fen());
+   // nuocCo.play();
+    updateStatus();
+  }
+  
+  function getBestMoveMaxi(game) {
+    updateStatus();
+    var depth = 4;
+    var bestMove = minimaxRoot(depth, game, true);
+    return bestMove;
+  }
+  
+  function getBestMove(game) {
+  
+  var newGameMoves = game.moves();
+  var bestMove = null;
+  // set đại một số âm vô hạn
+  var bestValue = -9999;
+  
+  for (var i = 0; i < newGameMoves.length; i++) {
+      var newGameMove = newGameMoves[i];
+      game.move(newGameMove);
+  
+      var boardValue = -evaluateBoard(game.board())
+      game.undo();
+      if (boardValue > bestValue) {
+          bestValue = boardValue;
+          bestMove = newGameMove
+      }
+  }
+  
+  return bestMove;
+  
+  };
+  
+  
+  
+  function makeRandomMove () {
+    let possibleMoves = game.moves();
+  
+    // game over
+    if (possibleMoves.length === 0) return; // Không còn nước nào có thể đi, end game
+  
+    let randomIdx = Math.floor(Math.random() * possibleMoves.length); // bốc đại 1 nước đi trong danh sách các bước có thể đi
+    game.move(possibleMoves[randomIdx]);
+    board.position(game.fen());
+  }
+  
+  function onDrop (source, target) {
+    removeGreySquares();
+  
+    // see if the move is legal
+    let move = game.move({
+      from: source,
+      to: target,
+      promotion: 'q' // NOTE: always promote to a queen for example simplicity
+    });
+  
+    // illegal move
+    if (move === null) return 'snapback';
+  
+   updateStatus();
+  
+    // make random legal move for black
+    // window.setTimeout(makeRandomMove, 250);
+    window.setTimeout(makeBestMove, 250);
+  }
+  
+  
+  function onMouseoverSquare (square, piece) {
+    // get list of possible moves for this square
+    let moves = game.moves({
+      square: square,
+      verbose: true
+    });
+  
+    // exit if there are no moves available for this square
+    if (moves.length === 0) return;
+  
+    // highlight the square they moused over
+    greySquare(square);
+  
+    // highlight the possible squares for this piece
+    for (let i = 0; i < moves.length; i++) {
+      greySquare(moves[i].to);
+    }
+  }
+  
+  function onMouseoutSquare (square, piece) {
+    removeGreySquares();
+  }
+  
+  
+  // update the board position after the piece snap
+  // for castling, en passant, pawn promotion
+  function onSnapEnd () {
+    board.position(game.fen());
+  }
+  
+  function updateStatus () {
+    let status = '';
+  
+    let moveColor = 'đỏ';
+    if (game.turn() === 'b') {
+      moveColor = 'đen';
+    }
+  
+    // checkmate?
+    if (game.in_checkmate()) {
+      status = 'Hết Cờ Bên ' + moveColor + ' thua ';
+    }
+    // draw?
+    else if (game.in_draw()) {
+      status = 'Hòa cờ';
+    }
+    // check?
+    else if (game.in_check()) {
+        status = 'Chiếu Tướng' ;
+      }
+    // game still on
+    else {
+      
+      status = ' Đến quân ' + moveColor ;
+    }
+  
+    $status.html(status);
+    $fen.html(game.fen());
+    $pgn.html(game.pgn());
+  }
+  
+  let config = {
+    draggable: true,
+    position: '1P1k5/1R7/1N7/9/9/9/9/3n1p3/4r4/5K3',
+    onDragStart: onDragStart,
+    onDrop: onDrop,
+    onMouseoutSquare: onMouseoutSquare,
+    onMouseoverSquare: onMouseoverSquare,
+    onSnapEnd: onSnapEnd
+  };
+  game.load('1P1k5/1R7/1N7/9/9/9/9/3n1p3/4r4/5K3 r - - 51 57');
+  board = Xiangqiboard('myBoard', config);
+  $('#startPositionBtn').on('click', function() {
+  board.position('1P1k5/1R7/1N7/9/9/9/9/3n1p3/4r4/5K3');
+  game.load('1P1k5/1R7/1N7/9/9/9/9/3n1p3/4r4/5K3 r - - 51 57');
+  $('#game-status').removeClass('black').addClass('red');
+  updateStatus();
+  $('#game-over').removeClass('d-inline-block').addClass('d-none');
+});
+$('#undo').on('click', function(){
+  game.load('fen');
+  game.undo();
+  board.position(game.fen());
+  
+  $('#game-status').removeClass('black').addClass('red');
+  updateStatus();
+  $('#game-over').removeClass('d-inline-block').addClass('d-none');
+});
+$('#redo').on('click', function(){
+  game.redo();
+  game.load('fen');
+  board.position(game.fen());
+  
+  $('#game-status').removeClass('black').addClass('red');
+  updateStatus();
+  $('#game-over').removeClass('d-inline-block').addClass('d-none');
+});
+updateStatus();
+    </script>
+  <script type='text/javascript' style='display:none;' async>
+  </script>
+  <script type="text/javascript" data-cfasync="false"></script>
+</body></html>

@@ -1,0 +1,120 @@
+.clearfix-5f3b5 {
+    clear: both;
+  }
+  
+  .board-1ef78 {
+    border: 2px solid #404040;
+    box-sizing: content-box;
+  }
+  
+  .square-2b8ce {
+    float: left;
+  
+    /* disable any native browser highlighting */
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
+  
+  .highlight1-e13fc, .highlight2-e0a03 {
+    box-shadow: inset 0 0 3px 3px yellow;
+  }
+  
+  .notation-8c7a2 {
+    cursor: default;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    position: absolute;
+  }
+  
+  .alpha-f4ef2 {
+    bottom: 1px;
+    right: 40%;
+  }
+  
+  .numeric-fe76e {
+    top: 40%;
+    left: 1px;
+  }
+  /*Css cá nhân*/
+.home__playpvc-board{
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.home__playpvc-setting{
+  margin-top: 25px;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+#status{
+  width: 100%;
+  height: 75px;
+  background-color: #95BB4A;
+  font-size: 3.5rem;
+  font-weight: 500;
+  padding-top: 20px;
+  border-radius: 10px;
+  width: 350px;
+  margin-left: 25px;
+  line-height: 3.5rem;
+  text-align: center;
+}
+#pgn{
+  height: 300px;
+  font-size: 1.6rem;
+ padding-top: 15px;
+ padding-right: 10px;
+ padding-left: 10px;
+ word-spacing: 2px;
+ border: 2px solid grey;
+ border-radius: 10px;
+ margin-top: 10px;
+ line-height: 2.2rem;
+}
+.home__playpvc-setting-choose{
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  font-size: 4rem;
+}
+.home__playpvc-setting-choose-but{
+  background-color: #312E2B;
+  border: none;
+  border-radius: 10px;
+  margin-left: 23px;
+  margin-right: 20px;
+  color: var(--white-color);
+  padding:  0px 10px 0px 10px;
+  cursor: pointer;
+}
+.home__playpvc-board-item{
+  color: var(--white-color);
+  font-size: 2rem;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.home__pvc-setting-plus{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+.home__playpvc-setting-plus-but{
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 80px;
+  cursor: pointer;
+}
+.home__playpvc-setting-plus-but-icon{
+padding-right: 10px;
+}
